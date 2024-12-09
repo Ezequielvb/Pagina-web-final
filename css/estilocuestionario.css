@@ -1,0 +1,143 @@
+/*      Fuentes     */
+@font-face {
+    font-family: texto_titulos;
+    src: url(../fuentes/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-image: url(../img/galeria\ 4.jpg);
+    background-position: center;
+
+}
+
+#wrapper {
+    background-color: #949494;
+    margin: 100px;
+}
+
+/*      Cabezera de la pagina       */
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/*      Barra de navegación*/
+
+.barranav {
+    justify-content: center;
+    display: flex;
+}
+
+.barranav a {
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.barranav a:hover {
+    background-color: rgba(235, 15, 15, 0.568);
+}
+
+
+/*      Formulario      */
+
+.titulos {
+    font-size: 60px;
+    text-align: center;
+    font-family: texto_titulos;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 12px black;
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="radio"],
+.formulario input[type="checkbox"],
+.formulario textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    width: auto;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/*      Espacio     */
+.espacio {
+    margin-bottom: 300px;
+}
+
+/*      Footer      */
+
+footer {
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-info,
+.footer-redes-sociales {
+    border: 4px solid #ff5858;
+    margin: 10px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.columnas-redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-info h3,
+.footer-redes-sociales h3 {
+    border-bottom: 2px solid #ff5858;
+    padding-bottom: 10px;
+    font-family: titulo;
+    font-size: 1.6em;
+    color: #fff;
+}
+
+.footer-info p {
+    font-family: texto;
+    color: #fff;
+}

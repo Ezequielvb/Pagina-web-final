@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="css/estilocuestionario.css">
+    <link rel="shortcut icon" href="img/favicon2.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <div class="barranav">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html #galeria">Galeria</a>
+                    <a href="datos.html">Datos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </header>
+        <h1 class="titulos">Inscripción</h1>
+        <form method="post" class="formulario">
+            <label for="nombre">Nombre: *</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="edad">Edad: *</label>
+            <input type="number" id="edad" name="edad" required><br><br>
+
+            <label>Género: *</label><br>
+            <input type="radio" id="masculino" name="genero" value="Masculino" required>
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="genero" value="Femenino" required>
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" id="otro" name="genero" value="Otro" required>
+            <label for="otro">Otro</label><br><br>
+
+            <label for="intereses">Intereses:</label><br>
+            <input type="checkbox" id="coche-propio" name="intereses" value="coche-propio">
+            <label for="carreras">Coche propio</label><br>
+            <input type="checkbox" id="coche-alquiler" name="intereses" value="coche-alquiler">
+            <label for="eventos">Coche alquilado</label><br>
+            <input type="checkbox" id="moto-propia" name="intereses" value="moto-propia">
+            <label for="eventos">Moto propia</label><br><br><br>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="espacio"></div>
+        <footer>
+            <div class="footer">
+                <div class="footer-info">
+                    <h3 id="contacto">Contacto</h3>
+                    <div class="columnas-info">
+                        <div class="info">
+
+                            <p>Correo de contacto: nürburgring@gmail.com</p>
+                            <p>Numero telefono: +49 534636632</p>
+                        </div>
+                        <div class="mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.7885759758547!2d6.945844799999999!3d50.333195599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bfad369010c559%3A0x80dbc21b73ca589a!2sN%C3%BCrburgring!5e0!3m2!1ses!2ses!4v1733581860515!5m2!1ses!2ses"
+                                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-redes-sociales">
+                    <h3>Redes Sociales</h3>
+                    <div class="columnas-redes">
+                        <a href="https://www.instagram.com/nuerburgring/?hl=es" target="_blank">
+                            <img src="img/logo insta.png" alt="logo instagram" width="180px" height="100px">
+                        </a>
+                        <a href="https://www.facebook.com/nuerburgring/?locale=es_ES" target="_blank">
+                            <img src="img/logofacebook.png" alt="logo facebook" width="100px" height="100px">
+                        </a>
+                        <a href="https://x.com/nuerburgring?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            target="_blank">
+                            <img src="img/logox.jpeg" alt="logo x" width="100px" height="100px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
